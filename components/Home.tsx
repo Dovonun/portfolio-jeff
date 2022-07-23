@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import mirrorPic from '/public/resources/mirrory.png';
+import mirrorPic from '../resources/mirrory.png';
 // import Arrowb from './Arrowb';
 
 const Home = () => {

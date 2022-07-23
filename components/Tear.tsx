@@ -1,6 +1,6 @@
 import Image from 'next/image';
+import tear from '../resources/TearinVoid.png';
 import ParallaxWrapper from './ParallaxWrapper';
-import tear from '/public/resources/TearinVoid.png';
 
 const Tear = ({ className, speed }: { className: string; speed: number }) => {
   return (

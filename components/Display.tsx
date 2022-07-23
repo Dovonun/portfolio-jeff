@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { useState } from 'react';
-import test1 from '../resources/character/test1.png';
+import test1 from '../resources/character/test.png';
 import tst from '../resources/character/tst.png';
 import dispalyPic from '../resources/display.png';
 

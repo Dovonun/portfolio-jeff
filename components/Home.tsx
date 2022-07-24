@@ -27,8 +27,13 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className='w-[40vw]'>
-        <Image src={mirrorPic} alt='Picture of a mirror' />
+      <div className='relative h-[90%] w-[35%]'>
+        <Image
+          src={mirrorPic}
+          alt='Picture of a mirror'
+          layout='fill'
+          objectFit='contain'
+        />
       </div>
     </div>
   );

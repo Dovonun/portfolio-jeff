@@ -7,7 +7,7 @@ const Section3 = () => {
   return (
     <div className='flex h-screen items-center justify-evenly'>
       <TextTemplate>
-        <p className='ml-52'>
+        <p className='ml-[15vw]'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           magni consectetur enim id pariatur beatae dignissimos quaerat eos
           eaque modi sed reiciendis suscipit, illo eligendi sint ex odit. Eum,

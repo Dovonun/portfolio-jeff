@@ -21,14 +21,16 @@ const Display = ({ location = 'right' }: { location?: 'left' | 'right' }) => {
     );
 
   return (
-    <div
-      className={`${location === 'left' ? '' : 'ml-[-10%]'} relative w-1/3 `}
-    >
-      <div className={` absolute left-[-5%] top-0 mt-[-74%] w-[120%]`}>
-        <Image src={pic} alt='Picture of a character I drew.' />
+    <div className={`${location === 'left' ? '' : 'ml-[5%]'} relative w-1/3 `}>
+      <div className={` absolute left-[-5%] top-0 mt-[-74%] w-[110%]`}>
+        <Image
+          src={pic}
+          placeholder='blur'
+          alt='Picture of a character I drew.'
+        />
       </div>
 
-      <div className={` absolute left-[15%] top-0 mt-[-115%] w-[100%]`}>
+      <div className={` absolute left-[15%] top-0 mt-[-115%] w-[93%]`}>
         <div className='ml-[-65%] w-[220%]'>
           <Image
             src={dispalyPic}
@@ -39,13 +41,13 @@ const Display = ({ location = 'right' }: { location?: 'left' | 'right' }) => {
       </div>
       <button
         onClick={handleNext}
-        className='absolute left-[100%] block h-10 w-20'
+        className='absolute right-[3%] block h-10 w-20'
       >
         Next
       </button>
       <button
         onClick={handleBack}
-        className='absolute left-[8%] block h-10 w-20'
+        className='absolute left-[15%] block h-10 w-20'
       >
         Back
       </button>

@@ -1,11 +1,12 @@
 import TextTemplate from './TextTemplate';
-
+import Lantern from './Lantern';
 // import Arrowb from './Arrowb';
 
 const Section2 = () => {
   return (
-    <div className='flex h-screen items-center justify-around'>
-      <TextTemplate className='ml-64'>
+    <div className='relative h-screen'>
+      <Lantern location='left' size='big' />
+      <TextTemplate className='absolute ml-[50vw] mt-[25vh]'>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           magni consectetur enim id pariatur beatae dignissimos quaerat eos

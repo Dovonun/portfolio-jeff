@@ -14,7 +14,7 @@ const Section2 = () => {
   ];
 
   return (
-    <div className='flex h-screen items-center justify-around overflow-hidden'>
+    <div className='flex h-screen items-center justify-around'>
       {tears.map((tear, index) => (
         <Tear
           key={index}

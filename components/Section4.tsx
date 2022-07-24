@@ -8,7 +8,7 @@ const Section2 = () => {
     <div className='flex h-screen items-center justify-around'>
       <Display location='left' />
       <TextTemplate>
-        <p className='mr-52'>
+        <p className='mr-[15vw]'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           magni consectetur enim id pariatur beatae dignissimos quaerat eos
           eaque modi sed reiciendis suscipit, illo eligendi sint ex odit. Eum,

@@ -8,11 +8,11 @@ const Home = () => {
       <div className='flex h-1/2 w-1/3 flex-col '>
         <div className='h-1/3'>
           <h1 className='text-8xl'>Welcome</h1>
-          <h2 className='mt-16 ml-32 2xl:text-4xl'>
+          <h2 className='mt-16 ml-32 text-xl 2xl:text-4xl'>
             - to the depth of my abilities
           </h2>
         </div>
-        <div className='ml-32 flex h-2/3 flex-col justify-evenly 2xl:text-3xl'>
+        <div className='ml-32 flex h-2/3 flex-col justify-evenly text-xl 2xl:text-3xl'>
           <p>
             This is me. <br /> I go by Jeffrey Sprenger Aka: Zano_Scro.
           </p>

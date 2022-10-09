@@ -12,18 +12,9 @@ const Home = () => {
             - to the depth of my abilities
           </h2>
         </div>
-        <div className='ml-32 flex h-2/3 flex-col justify-evenly text-lg'>
+        <div className='ml-32 flex h-2/3 flex-col justify-evenly text-3xl'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            magni consectetur enim id pariatur beatae dignissimos quaerat eos
-            eaque modi sed reiciendis suscipit, illo eligendi sint ex odit. Eum,
-            mollitia.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fuga
-            natus pariatur beatae eveniet distinctio cumque accusamus similique
-            cupiditate corrupti quibusdam, velit nam architecto, quod
-            repellendus ad consectetur mollitia aliquid.
+            This is me. <br /> I go by Jeffrey Sprenger Aka: Zano_Scro.
           </p>
         </div>
       </div>

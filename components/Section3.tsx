@@ -7,20 +7,13 @@ const Section3 = () => {
   return (
     <div className='flex h-screen items-center justify-evenly'>
       <TextTemplate>
-        <p className='ml-[15vw]'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          magni consectetur enim id pariatur beatae dignissimos quaerat eos
-          eaque modi sed reiciendis suscipit, illo eligendi sint ex odit. Eum,
-          mollitia.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fuga
-          natus pariatur beatae eveniet distinctio cumque accusamus similique
-          cupiditate corrupti quibusdam, velit nam architecto, quod repellendus
-          ad consectetur mollitia aliquid.
+        <p className='ml-32 mt-32'>
+          Since I&rsquo;m also including various different gameplay elements
+          into my Visual Novel, my skills also expand to Icon and Item design,
+          as well as creating complex gameplay mechanics.
         </p>
       </TextTemplate>
-      <Display location='right' />
+      <Display section={1} />
     </div>
   );
 };

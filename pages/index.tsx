@@ -6,10 +6,12 @@ import Section4 from '../components/Section4';
 import Section5 from '../components/Section5';
 import Section6 from '../components/Section6';
 import Lantern from '../components/Lantern';
+import ParallaxParent from '../components/ParallaxParent';
 
 const IndexPage = () => (
   <ParallaxProvider>
     <div className='overflow-hidden bg-gradient-to-b from-[#301548] to-black text-white'>
+      <ParallaxParent />
       <Home />
       <Section2 />
       <Lantern location='left' />

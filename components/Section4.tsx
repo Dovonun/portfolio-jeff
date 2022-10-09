@@ -9,16 +9,10 @@ const Section2 = () => {
       <Display location='left' />
       <TextTemplate>
         <p className='mr-[15vw]'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          magni consectetur enim id pariatur beatae dignissimos quaerat eos
-          eaque modi sed reiciendis suscipit, illo eligendi sint ex odit. Eum,
-          mollitia.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fuga
-          natus pariatur beatae eveniet distinctio cumque accusamus similique
-          cupiditate corrupti quibusdam, velit nam architecto, quod repellendus
-          ad consectetur mollitia aliquid.
+          In addition to designing official sprites, I also draw various
+          different things in multiple styles not only for my own enjoyment, but
+          also to expand my skill set for future additions to my Story or other
+          projects.
         </p>
       </TextTemplate>
     </div>

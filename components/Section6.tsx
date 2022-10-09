@@ -7,18 +7,12 @@ const Section2 = () => {
     <div className='relative h-screen'>
       <Lantern location='left' size='big' />
       <TextTemplate className='absolute ml-[50vw] mt-[25vh]'>
+        <p>Welcome to the bottom of my ability list.</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          magni consectetur enim id pariatur beatae dignissimos quaerat eos
-          eaque modi sed reiciendis suscipit, illo eligendi sint ex odit. Eum,
-          mollitia.
+          The current focus of expanding my skills lies in creating backgrounds
+          and scenes for my project and learning animation.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fuga
-          natus pariatur beatae eveniet distinctio cumque accusamus similique
-          cupiditate corrupti quibusdam, velit nam architecto, quod repellendus
-          ad consectetur mollitia aliquid.
-        </p>
+        <p>Some future skills include music design and creating an ost.</p>
       </TextTemplate>
     </div>
   );

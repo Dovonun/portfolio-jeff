@@ -6,6 +6,7 @@ import Section4 from '../components/Section4';
 import Section5 from '../components/Section5';
 import Section6 from '../components/Section6';
 import Lantern from '../components/Lantern';
+import ParallaxParent from '../components/ParallaxParent';
 
 const IndexPage = () => (
   <ParallaxProvider>
@@ -18,6 +19,7 @@ const IndexPage = () => (
       <Section4 />
       <Section5 />
       <Section6 />
+      <ParallaxParent />
     </div>
   </ParallaxProvider>
 );

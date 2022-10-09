@@ -8,16 +8,15 @@ const Section2 = () => {
     <div className='flex h-screen items-center justify-around'>
       <TextTemplate>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          magni consectetur enim id pariatur beatae dignissimos quaerat eos
-          eaque modi sed reiciendis suscipit, illo eligendi sint ex odit. Eum,
-          mollitia.
+          Lastly, I would like to mention that my Visual Novel will be hosted on
+          a website. Thus my skills also include web design and experience with
+          tools like: <br /> - Figma.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fuga
-          natus pariatur beatae eveniet distinctio cumque accusamus similique
-          cupiditate corrupti quibusdam, velit nam architecto, quod repellendus
-          ad consectetur mollitia aliquid.
+          I have been drawing digitally with “Clip studio Paint” for a good span
+          of about 3 years now and know the program fairly well. I&rsquo;m also
+          familiar with Photoshop though I mostly use my comfort tool for my
+          work.
         </p>
       </TextTemplate>
       <Display location='right' />

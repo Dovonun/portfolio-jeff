@@ -2,9 +2,10 @@ import Image from 'next/image';
 import { useState } from 'react';
 import test1 from '../resources/character/test.png';
 import tst from '../resources/character/tst.png';
+import Cagliostro from '../resources/character/Cagliostro.png';
 import dispalyPic from '../resources/display.png';
 
-const pics = [tst, test1];
+const pics = [tst, test1, Cagliostro];
 
 const Display = ({ location = 'right' }: { location?: 'left' | 'right' }) => {
   const [pic, setPic] = useState(tst);
@@ -21,36 +22,44 @@ const Display = ({ location = 'right' }: { location?: 'left' | 'right' }) => {
     );
 
   return (
-    <div className={`${location === 'left' ? '' : 'ml-[5%]'} relative w-1/3 `}>
-      <div className={` absolute left-[-5%] top-0 mt-[-74%] w-[110%]`}>
-        <Image
-          src={pic}
-          placeholder='blur'
-          alt='Picture of a character I drew.'
-        />
-      </div>
+    <div
+      className={`${
+        location === 'left' ? '' : 'ml-[5%]'
+      } mt-[10%] w-full outline outline-red-600`}
+    >
+      <div className='relative pb-[100%] outline outline-violet-500'>
+        <div className='absolute top-[50%] h-full max-h-screen w-full translate-y-[-50%] outline outline-green-400'>
+          <div className='absolute h-1/2 w-1/2 translate-x-[50%] translate-y-[50%] outline outline-yellow-600'>
+            <Image
+              src={pic}
+              placeholder='blur'
+              alt='Picture of a character I drew.'
+              layout='fill'
+              objectFit='contain'
+            />
+          </div>
 
-      <div className={` absolute left-[15%] top-0 mt-[-115%] w-[93%]`}>
-        <div className='ml-[-65%] w-[220%]'>
           <Image
             src={dispalyPic}
             alt='Picture of a mirror'
-            layout='responsive'
+            layout='fill'
+            objectFit='contain'
+            objectPosition='center center'
           />
+          <button
+            onClick={handleNext}
+            className='absolute right-[20%] top-[50%] block h-10 w-20'
+          >
+            Next
+          </button>
+          <button
+            onClick={handleBack}
+            className='absolute left-[20%] top-[50%] block h-10 w-20'
+          >
+            Back
+          </button>
         </div>
       </div>
-      <button
-        onClick={handleNext}
-        className='absolute right-[3%] block h-10 w-20'
-      >
-        Next
-      </button>
-      <button
-        onClick={handleBack}
-        className='absolute left-[15%] block h-10 w-20'
-      >
-        Back
-      </button>
     </div>
   );
 };

@@ -7,7 +7,7 @@ const TextTemplate = ({
 }) => {
   return (
     <div
-      className={`${className} z-10 m-4 mt-[15vh] flex h-1/2 w-1/3 flex-col justify-around pr-10 text-3xl leading-normal`}
+      className={`${className} z-10 m-4 mt-[15vh] flex h-1/2 w-1/3 flex-col justify-around pr-10 text-xl leading-normal 2xl:text-3xl`}
     >
       {children}
     </div>

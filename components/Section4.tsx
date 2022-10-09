@@ -6,7 +6,7 @@ import TextTemplate from './TextTemplate';
 const Section2 = () => {
   return (
     <div className='flex h-screen items-center justify-around'>
-      <Display location='left' />
+      <Display section={2} />
       <TextTemplate>
         <p className='mr-[15vw]'>
           In addition to designing official sprites, I also draw various

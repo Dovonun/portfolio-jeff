@@ -6,7 +6,7 @@ import TextTemplate from './TextTemplate';
 const Section2 = () => {
   return (
     <div className='flex h-screen items-center justify-around'>
-      <Display location='left' />
+      <Display section={0} />
       <TextTemplate>
         <p>
           I am currently working on my passion project: <br /> - A Visual Novel.

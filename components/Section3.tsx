@@ -13,7 +13,7 @@ const Section3 = () => {
           as well as creating complex gameplay mechanics..
         </p>
       </TextTemplate>
-      <Display location='right' />
+      <Display section={1} />
     </div>
   );
 };

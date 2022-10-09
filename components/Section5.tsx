@@ -19,7 +19,7 @@ const Section2 = () => {
           work.
         </p>
       </TextTemplate>
-      <Display location='right' />
+      <Display section={3} />
     </div>
   );
 };

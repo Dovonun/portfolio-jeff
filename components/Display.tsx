@@ -142,12 +142,12 @@ const dispaly4 = [
 ];
 
 // Section5
-import Litterallyme from '/public/assets/Title/Litterallyme.png';
-import SlimeMonarchOrMe from '/public/assets/Title/SlimeMonarchOrMe.png';
+// import Litterallyme from '/public/assets/Title/Litterallyme.png';
+// import SlimeMonarchOrMe from '/public/assets/Title/SlimeMonarchOrMe.png';
 
-const dispaly5 = [Litterallyme, SlimeMonarchOrMe];
+// const dispaly5 = [Litterallyme, SlimeMonarchOrMe];
 
-const displays = [display1, dispaly2, dispaly3, dispaly4, dispaly5];
+const displays = [display1, dispaly2, dispaly3, dispaly4];
 
 const Display = ({ section }: { section: number }) => {
   const [current_pic, setPic] = useState(displays[section][0]);

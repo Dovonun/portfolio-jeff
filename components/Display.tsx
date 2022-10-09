@@ -4,7 +4,7 @@ import { useState } from 'react';
 import dispalyPic from '../resources/display.png';
 
 import arrow_blue from '../public/assets/arrowblue.png';
-import arrow_green from '../public/assets/arrowgreen.png';
+// import arrow_green from '../public/assets/arrowgreen.png';
 import arrow_red from '../public/assets/arrowred.png';
 
 // Section1

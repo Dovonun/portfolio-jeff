@@ -12,7 +12,7 @@ const Home = () => {
             - to the depth of my abilities
           </h2>
         </div>
-        <div className='ml-32 flex h-2/3 flex-col justify-evenly text-lg'>
+        <div className='ml-32 flex h-2/3 flex-col justify-evenly text-3xl'>
           <p>
             This is me. <br /> I go by Jeffrey Sprenger Aka: Zano_Scro.
           </p>

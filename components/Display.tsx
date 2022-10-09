@@ -172,8 +172,8 @@ const Display = ({ section }: { section: number }) => {
     );
 
   return (
-    <div className={`w-[75%]  `}>
-      <div className='relative w-4/5  pb-[100%]  '>
+    <div className={`w-[60%]  `}>
+      <div className='relative w-full  pb-[100%]  '>
         <div className='absolute h-full max-h-screen w-full  '>
           <div className='absolute  h-1/2 w-1/2 translate-x-[50%] translate-y-[50%]  '>
             <Image

@@ -11,6 +11,7 @@ import ParallaxParent from '../components/ParallaxParent';
 const IndexPage = () => (
   <ParallaxProvider>
     <div className='overflow-hidden bg-gradient-to-b from-[#301548] to-black text-white'>
+      <ParallaxParent />
       <Home />
       <Section2 />
       <Lantern location='left' />
@@ -19,7 +20,6 @@ const IndexPage = () => (
       <Section4 />
       <Section5 />
       <Section6 />
-      <ParallaxParent />
     </div>
   </ParallaxProvider>
 );

@@ -5,7 +5,7 @@ import TextTemplate from './TextTemplate';
 
 const Section2 = () => {
   return (
-    <div className='flex h-screen items-center justify-around'>
+    <div className='flex h-screen items-center justify-evenly'>
       <Display section={2} />
       <TextTemplate>
         <p className='mr-[15vw]'>

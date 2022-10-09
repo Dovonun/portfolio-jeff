@@ -5,8 +5,8 @@ import TextTemplate from './TextTemplate';
 
 const Section2 = () => {
   return (
-    <div className='flex h-screen items-center justify-around'>
-      <TextTemplate>
+    <div className='flex h-screen items-center justify-evenly'>
+      <TextTemplate className='ml-[8%]'>
         <p>
           Lastly, I would like to mention that my Visual Novel will be hosted on
           a website. Thus my skills also include web design and experience with
